@@ -1,0 +1,23 @@
+1. jelaskan apa yang dimaksud dengan dokumen root?
+dokumen root adalah dokumen yang menjadi acuan atau referensi utama dalam hal suatu proyek, sistem, atau aplikasi 
+2. pada Apache web server apakah dokumen root harus terletak dalam direktori C:\xampp\htdocs ? jelaskan jawaban anda!
+Tidak, dokumen root pada Apache web server tidak harus selalu terletak di C:\xampp\htdocs. Lokasi ini hanya merupakan pengaturan default jika menggunakan XAMPP sebagai distribusi Apache di Windows.
+3. jelaskan apa yang dimaksud dengan perintah git :init, clone, remote, add, commit, push, dan checkout 
+- git init : Perintah untuk menginisialisasi repository Git baru di dalam sebuah direktori.
+- git clone : Perintah untuk menyalin (meng-clone) repository yang sudah ada dari remote server ke komputer lokal.
+- git remote : Perintah untuk mengelola koneksi ke repository remote.
+- git add : Perintah untuk menambahkan perubahan file ke staging area sebelum di-commit.
+- git commit : Perintah untuk menyimpan snapshot perubahan yang telah ditambahkan ke staging area.
+- git push : Perintah untuk mengunggah commit yang telah dibuat ke repository remote.
+- git checkout : Perintah untuk berpindah branch atau mengembalikan file ke kondisi tertentu.
+4. jelaskan perbedaan github dan gitlab?
+GitHub dan GitLab adalah dua platform yang populer digunakan untuk pengelolaan proyek perangkat lunak. GitHub lebih fokus pada pengelolaan proyek dan kolaborasi, sedangkan GitLab menawarkan fitur yang lebih lengkap, termasuk pengelolaan proyek, kolaborasi, dan integrasi dengan alat-alat lain. Pilihan antara GitHub dan GitLab tergantung pada kebutuhan dan preferensi tim Anda.
+5. apa bedanya variabel user dengan variabel system?
+- Variabel user adalah variabel yang dibuat dan diatur oleh pengguna (user) sendiri. Variabel ini biasanya digunakan untuk menyimpan nilai-nilai yang spesifik untuk pengguna tersebut
+- Variabel system adalah variabel yang dibuat dan diatur oleh sistem operasi (OS) itu sendiri. Variabel ini biasanya digunakan untuk menyimpan nilai-nilai yang terkait dengan konfigurasi sistem
+6. apa persamaan variabel system dengan variable constant?
+Persamaan Variabel System dengan Variabel Constant :
+- Keduanya Digunakan untuk Penyimpanan Nilai
+- Sering Digunakan sebagai Konfigurasi
+- Bisa Bersifat Global
+- Membantu Mencegah Hardcoding
