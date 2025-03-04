@@ -1,8 +1,4 @@
 <?php
-if (!isset($_POST['submit'])){
-    header("Location: form_nilai.php");
-    exit;
-  }
 $proses = $_POST['proses'];
 $nama_siswa = $_POST['nama'];
 $mata_kuliah = $_POST['matkul'];
