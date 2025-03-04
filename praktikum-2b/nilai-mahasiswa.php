@@ -9,6 +9,10 @@ $mata_kuliah = $_POST['matkul'];
 $nilai_uts = $_POST['nilai_uts'];
 $nilai_uas = $_POST['nilai_uas'];
 $nilai_tugas = $_POST['nilai_tugas'];
+$nilai_akhir = $_POST['nilai_akhir'];
+$grade = $_POST['grade'];
+$predikat = $_POST['predikat'];
+$status = $_POST['status'];
 
 // Menghitung Nilai Akhir
 $nilai_akhir = ($nilai_uts * 0.3) + ($nilai_uas * 0.35) + ($nilai_tugas * 0.35);
